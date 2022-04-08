@@ -218,7 +218,7 @@ if __name__ == "__main__":
     LOOP = asyncio.get_event_loop()
     pygame.font.init()
     q = asyncio.Queue()
-    PROGRAM_ICON = pygame.image.load("data/tetris_block.png")
+    PROGRAM_ICON = pygame.image.load("../data/tetris_block.png")
     pygame.display.set_icon(PROGRAM_ICON)
 
     ws_path = f"ws://{arguments.server}:{arguments.port}/viewer"
